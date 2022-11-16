@@ -7,8 +7,8 @@ self.addEventListener('push', function(e){
             primaryKey: '2'
         },
         actions: [
-            {action: 'explore', title:'explore this world',}
-            {action: 'close', title: 'close'}
+            {action: 'explore', title:'explore this world'},
+            {action: 'close', title: 'close'},
         ]
     };
     e.waitUntil(
