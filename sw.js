@@ -12,6 +12,6 @@ self.addEventListener('push', function(e){
         ]
     };
     e.waitUntil(
-    self.ServiceWorkerRegistration.showNotification('hello world',options)
+    self.registration.showNotification('hello world',options)
     );
 });

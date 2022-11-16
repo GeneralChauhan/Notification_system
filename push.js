@@ -5,9 +5,14 @@ let vapidKeys = {
     privateKey: 'Cjw0xfLyFpwy0ktB0CBS2FisYOpdVddzrrvBZN3OhTY'
   };
 
-  push.setVapidDetails('mailto:test@code.com',vapidKeys.publicKey,vapidKeys.privateKey);
+  push.setVapidDetails(
+    'mailto:test@code.com',
+    vapidKeys.publicKey,
+    vapidKeys.privateKey
+    );
 
-  let sub={endpoint:"https://fcm.googleapis.com/fcm/send/e85YprdTOPM:APA91bHjRxP-5UHGJSdMInn8K0lVOauxMb_EfprGoCkeGZTL-2W1MlHqpgyUR6K3jg1tiQePrgwVNKr99r4ZShK1OVuK1XZXF-yfZXPoFue1uRTGzSX3MKx7-3HOWs7h3iPkJCLEeYD3",
+  let sub={
+    endpoint:"https://fcm.googleapis.com/fcm/send/e85YprdTOPM:APA91bHjRxP-5UHGJSdMInn8K0lVOauxMb_EfprGoCkeGZTL-2W1MlHqpgyUR6K3jg1tiQePrgwVNKr99r4ZShK1OVuK1XZXF-yfZXPoFue1uRTGzSX3MKx7-3HOWs7h3iPkJCLEeYD3",
   expirationTime:null,
   keys:{
     p256dh:"BGRiiu8XeWM6hHYL6hNn6xkVAvX17P50QdVlME1pJg-ceZT_2BOGJRu5phfbW5F3_0-hkUVxKmID7CmWmaHxF64",
