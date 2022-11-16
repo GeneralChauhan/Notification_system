@@ -8,7 +8,7 @@ let vapidKeys = {
   push.setVapidDetails(
     'mailto:test@code.com',
     vapidKeys.publicKey,
-    vapidKeys.privateKey
+    vapidKeys.privateKey,
     );
 
   let sub={
@@ -17,7 +17,7 @@ let vapidKeys = {
   keys:{
     p256dh:"BGRiiu8XeWM6hHYL6hNn6xkVAvX17P50QdVlME1pJg-ceZT_2BOGJRu5phfbW5F3_0-hkUVxKmID7CmWmaHxF64",
     auth:"PfMtEfAL8Q8WinbOsihulg"
-    }
+    };
 };
 
   push.sendNotification(sub,'test message');
