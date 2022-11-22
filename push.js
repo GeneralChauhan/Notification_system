@@ -17,7 +17,7 @@ push.setVapidDetails(
   vapidKeys.privateKey
   );
 
-let sub={"endpoint":"https://wns2-pn1p.notify.windows.com/w/?token=BQYAAABO%2fK72yR1i79YMFnlOl5FylbJT%2fLAvOhjuxV0rpeSC82DuKSltApDMrFw%2fTQUFNrV0AJ8XPH6%2b1m7SQqGHrpDIzQfB6V4Tx%2fupNX3ascg%2fzgOerA3Lfe954joO5QpVPAfYdne%2bLeGQCJBMCdSJvOWpKc3MKwBGgSI5UIu9Q4L1iHL379GNki3fc%2bKTO0yLu7S2c%2bcDKSBVppSz9H7UbLChnj5u7nNWHGPvWXMJ57%2b9JW77xW4xdZNsABHjfpiBr9guIr%2banz2K6gyvy5ExB8lQlBaB5p6aWeKRhbfl%2fnxv4nnXMg0%2fOpKw%2bb%2b0s%2f8aB3%2bgBnam7QUF87WYwYGsieqW4SAc4pgqbzm1tqAJbPe3ZA%3d%3d","expirationTime":null,"keys":{"p256dh":"BGpZphIcgmDno0Sa3KhpRWguyUwL3EL28GZLX9yQoG9VApr6puzwI7tikEZs_kvNE_dDli7bujYZM_MQCW_w2fQ","auth":"xLu2ez9nI2hVGsjJGmvY8Q"}}
+let sub={"endpoint":"https://fcm.googleapis.com/fcm/send/c0DwvTGgLo4:APA91bEfP-zSufAe54RLnBWwcx_4pC7re-Mf2TQOnL_KWmOYTqk_eRc2EoGubDfvWtGxTDV7lxBifRdbORsq_jF7SMaB-PL14SbOt3i4L_zFRlJYGuqQz2_XpEyErZwkeYy4PZ6hz1t9","expirationTime":null,"keys":{"p256dh":"BElqZTXhDXhr6rK_CBhppmdj-zoT6TyJsGXq2dIz9OZ2ra4TsgIi3kASopl7vm6lJI4Xx2dGRQj4XdAMAjSh_1I","auth":"OjnJnthV1IaI8GWyvzAkIw"}}
 
 push.sendNotification(sub,'test message');
 
